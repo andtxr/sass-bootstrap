@@ -1,0 +1,12 @@
+/* Theme */
+
+::selection {
+  background: $color-primary;
+  color: $color-secondary;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  font-family: $font-primary;
+  overflow: auto;
+}
