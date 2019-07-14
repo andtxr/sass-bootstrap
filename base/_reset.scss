@@ -1,9 +1,20 @@
-/* CSS Reset */
+// Default behaviors
 
-input, select, textarea {
-  font-family: sans-serif;
+::selection {
+  background: $color-primary;
+  color: $color-secondary;
 }
 
 *:focus {
   outline: none;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  font-family: $font-primary;
+  overflow: auto;
+}
+
+input, select, textarea {
+  font-family: sans-serif;
 }

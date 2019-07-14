@@ -1,6 +1,10 @@
-/* Utility */
+// General helpers
 
-/* Float */
+// Float
+
+.float-center {
+  @extend %center;
+}
 
 .float-left {
   float: left;
@@ -10,7 +14,7 @@
   float: right;
 }
 
-/* Text Alignment */
+// Text alignment
 
 .text-center {
   text-align: center;
